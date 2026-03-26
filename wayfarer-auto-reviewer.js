@@ -104,11 +104,11 @@
 
     async function clickAllThumbs() {
         console.log('%c📍 Clicking thumbs criteria...', 'color:#ff0');
-        const upPatterns = [['thumbs up', 'thumb up', '👍', 'yes', 'good', 'great place', 'exploring', 'exercise', 'socialize', 'appropriate', 'safe', 'accurate']];
+        const upPatterns = [['thumbs up', 'thumb up', '👍', 'yes', 'good', 'great place', 'exploring', 'exercise', 'i don't know', 'socialize', 'appropriate', 'safe', 'accurate']];
         await findAndClickButton(upPatterns, 10, 280);
 
         if (Math.random() < 0.18) {
-            const downPatterns = [['thumbs down', 'thumb down', '👎', 'no', 'bad']];
+            const downPatterns = [['thumbs down', 'thumb down', '👎', 'no', 'bad', 'i don't know']];
             await findAndClickButton(downPatterns, 6, 280);
         }
     }
