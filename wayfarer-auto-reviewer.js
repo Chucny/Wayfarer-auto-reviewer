@@ -104,11 +104,11 @@
 
     async function clickAllThumbs() {
         console.log('%c📍 Clicking thumbs criteria...', 'color:#ff0');
-        const upPatterns = [['i don't know', 'thumbs up', 'thumb up', '👍', 'yes', 'good', 'great place', 'exploring', 'exercise', 'socialize', 'appropriate', 'safe', 'accurate']];
+        const upPatterns = [["i don't know", 'thumbs up', 'thumb up', '👍', 'yes', 'good', 'great place', 'exploring', 'exercise', 'socialize', 'appropriate', 'safe', 'accurate']];
         await findAndClickButton(upPatterns, 10, 280);
 
         if (Math.random() < 0.18) {
-            const downPatterns = [['i don't know', 'thumbs down', 'thumb down', '👎', 'no', 'bad']];
+            const downPatterns = [["i don't know", 'thumbs down', 'thumb down', '👎', 'no', 'bad']];
             await findAndClickButton(downPatterns, 6, 280);
         }
     }
@@ -235,7 +235,7 @@
 
     function init() {
         createPanel();
-        console.log('%cWayfarer auto reviewer injected!', 'color:#0ff');
+        console.log('%cWayfarer Auto Reviewer Injected!', 'color:#0ff');
     }
 
     if (document.readyState === 'loading') {
