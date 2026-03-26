@@ -12,11 +12,11 @@
 (() => {
     'use strict';
 
-    console.log('%c🔥 WAYFARER AUTO-REVIEWER v1.6 — STABLE & FIXED', 'color:#f0f; font-size:18px; font-weight:bold');
+    console.log('%cWayfarer Auto Reviewer (made by Chucny)', 'color:#f0f; font-size:18px; font-weight:bold');
 
     let isRunning = false;
     let reviewsDone = 0;
-    let maxReviews = 50;
+    let maxReviews = 100000000;
     let currentTimeout = null;   // ← Fixed: properly declared here
 
     const CONFIG = {
